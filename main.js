@@ -22,5 +22,12 @@ function upozorni() {
 
 // obarveni buttonu
 
-let obarveni = document.querySelector("button");
-obarveni.style.backgroundColor = 'red';
+/* let obarveni = document.querySelector("button");
+obarveni.style.backgroundColor = 'red'; */
+
+// ctverecek na zelenou
+
+function zmenNaZelenou() {
+  let zelena = document.querySelector(".ctverecek");
+  zelena.style.backgroundColor = 'green';
+}
