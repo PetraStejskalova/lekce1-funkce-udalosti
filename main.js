@@ -19,3 +19,8 @@ function secti(a, b) {
 function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
 }
+
+// obarveni buttonu
+
+let obarveni = document.querySelector("button");
+obarveni.style.backgroundColor = 'red';
